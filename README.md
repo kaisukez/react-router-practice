@@ -1,10 +1,10 @@
 # React Router practice
 
-#### What is it?
+### What is it?
 
 This is a blog website that can add new post and delete, using https://reduxblog.herokuapp.com/ as api.
 
-#### What I've learned?
+### What I've learned?
 
 - react router
 - redux form
@@ -15,6 +15,6 @@ This is a blog website that can add new post and delete, using https://reduxblog
 const { meta: { touched, error } } = field;
 ```
 
-#### Where you can see my blog?
+### Where you can see my blog?
 
 https://kaisukez.github.io/react-router-practice
