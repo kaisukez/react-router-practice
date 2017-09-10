@@ -12,7 +12,7 @@ class PostShow extends Component {
   onDeleteClick() {
     const { id } = this.props.match.params;
     this.props.deletePost(id, () => {
-      this.props.history.push('/');
+      this.props.history.push('/react-router-practice/');
     });
   }
 
@@ -25,7 +25,7 @@ class PostShow extends Component {
 
     return (
       <div>
-        <Link to="/">Back To Index</Link>
+        <Link to="/react-router-practice/">Back To Index</Link>
         <button
           className="btn btn-danger float-right"
           onClick={this.onDeleteClick.bind(this)}

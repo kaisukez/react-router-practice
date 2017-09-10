@@ -28,7 +28,7 @@ class PostsNew extends Component {
 
   onSubmit(values) {
     this.props.createPost(values, () => {
-      this.props.history.push('/');
+      this.props.history.push('/react-router-practice/');
     });
 
   }
@@ -54,7 +54,7 @@ class PostsNew extends Component {
             component={this.renderField}
           />
           <button type="submit" className="btn btn-primary">Submit</button>
-          <Link to="/" className="btn btn-danger">Cancel</Link>
+          <Link to="/react-router-practice/" className="btn btn-danger">Cancel</Link>
         </form>
       </div>
     )
